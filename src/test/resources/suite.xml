@@ -1,0 +1,13 @@
+<suite name="Web Automation Suite">
+    <parameter name="url" value="https://www.globalsqa.com/demo-site/frames-and-windows/"/>
+    <parameter name="browser" value="chrome" />
+    <test name="Suite">
+        <classes>
+            <class name="com.globant.tests.GlobalSQATest">
+                <methods>
+                    <include name="testAlerts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
